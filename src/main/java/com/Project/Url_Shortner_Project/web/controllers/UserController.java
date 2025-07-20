@@ -1,9 +1,9 @@
 package com.Project.Url_Shortner_Project.web.controllers;
 
-import com.Project.Url_Shortner_Project.domain.entities.models.CreateUserCmd;
-import com.Project.Url_Shortner_Project.domain.entities.models.Role;
-import com.Project.Url_Shortner_Project.domain.entities.services.UserService;
-import com.Project.Url_Shortner_Project.web.controllers.dtos.RegisterUserRequest;
+import com.Project.Url_Shortner_Project.domain.models.CreateUserCmd;
+import com.Project.Url_Shortner_Project.domain.models.Role;
+import com.Project.Url_Shortner_Project.domain.services.UserService;
+import com.Project.Url_Shortner_Project.web.dtos.RegisterUserRequest;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,7 +1,7 @@
 package com.Project.Url_Shortner_Project.web.controllers;
 
 import com.Project.Url_Shortner_Project.domain.entities.User;
-import com.Project.Url_Shortner_Project.domain.entities.services.UserService;
+import com.Project.Url_Shortner_Project.domain.services.UserService;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;

@@ -1,9 +1,9 @@
 package com.Project.Url_Shortner_Project.web.controllers;
 
 import com.Project.Url_Shortner_Project.config.ApplicationProperties;
-import com.Project.Url_Shortner_Project.domain.entities.models.PagedResult;
-import com.Project.Url_Shortner_Project.domain.entities.models.ShortUrlDto;
-import com.Project.Url_Shortner_Project.domain.entities.services.ShortUrlService;
+import com.Project.Url_Shortner_Project.domain.models.PagedResult;
+import com.Project.Url_Shortner_Project.domain.models.ShortUrlDto;
+import com.Project.Url_Shortner_Project.domain.services.ShortUrlService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

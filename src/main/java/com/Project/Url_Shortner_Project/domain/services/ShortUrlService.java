@@ -1,13 +1,13 @@
-package com.Project.Url_Shortner_Project.domain.entities.services;
+package com.Project.Url_Shortner_Project.domain.services;
 
 
 import com.Project.Url_Shortner_Project.config.ApplicationProperties;
 import com.Project.Url_Shortner_Project.domain.entities.ShortUrl;
-import com.Project.Url_Shortner_Project.domain.entities.models.CreateShortUrlCmd;
-import com.Project.Url_Shortner_Project.domain.entities.models.PagedResult;
-import com.Project.Url_Shortner_Project.domain.entities.models.ShortUrlDto;
-import com.Project.Url_Shortner_Project.domain.entities.repositories.ShortUrlRepository;
-import com.Project.Url_Shortner_Project.domain.entities.repositories.UserRepository;
+import com.Project.Url_Shortner_Project.domain.models.CreateShortUrlCmd;
+import com.Project.Url_Shortner_Project.domain.models.PagedResult;
+import com.Project.Url_Shortner_Project.domain.models.ShortUrlDto;
+import com.Project.Url_Shortner_Project.domain.repositories.ShortUrlRepository;
+import com.Project.Url_Shortner_Project.domain.repositories.UserRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import static com.Project.Url_Shortner_Project.domain.entities.services.RandomUtils.generateRandomShortKey;
+import static com.Project.Url_Shortner_Project.domain.services.RandomUtils.generateRandomShortKey;
 import static java.time.temporal.ChronoUnit.*;
 
 @Service

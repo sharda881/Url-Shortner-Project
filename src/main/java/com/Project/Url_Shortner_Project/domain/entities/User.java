@@ -1,6 +1,6 @@
 package com.Project.Url_Shortner_Project.domain.entities;
 
-import com.Project.Url_Shortner_Project.domain.entities.models.Role;
+import com.Project.Url_Shortner_Project.domain.models.Role;
 import jakarta.persistence.*;
 import org.hibernate.annotations.ColumnDefault;
 

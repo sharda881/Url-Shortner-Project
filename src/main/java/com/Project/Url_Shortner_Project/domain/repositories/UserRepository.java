@@ -1,4 +1,4 @@
-package com.Project.Url_Shortner_Project.domain.entities.repositories;
+package com.Project.Url_Shortner_Project.domain.repositories;
 
 import com.Project.Url_Shortner_Project.domain.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;

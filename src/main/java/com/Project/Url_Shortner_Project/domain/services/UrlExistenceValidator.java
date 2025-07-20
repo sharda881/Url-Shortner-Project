@@ -1,4 +1,4 @@
-package com.Project.Url_Shortner_Project.domain.entities.services;
+package com.Project.Url_Shortner_Project.domain.services;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,8 +1,8 @@
-package com.Project.Url_Shortner_Project.domain.entities.services;
+package com.Project.Url_Shortner_Project.domain.services;
 
 import com.Project.Url_Shortner_Project.domain.entities.User;
-import com.Project.Url_Shortner_Project.domain.entities.models.CreateUserCmd;
-import com.Project.Url_Shortner_Project.domain.entities.repositories.UserRepository;
+import com.Project.Url_Shortner_Project.domain.models.CreateUserCmd;
+import com.Project.Url_Shortner_Project.domain.repositories.UserRepository;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

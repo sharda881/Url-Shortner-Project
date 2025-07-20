@@ -1,4 +1,4 @@
-package com.Project.Url_Shortner_Project.web.controllers.dtos;
+package com.Project.Url_Shortner_Project.web.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

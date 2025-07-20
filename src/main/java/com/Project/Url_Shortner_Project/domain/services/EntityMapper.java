@@ -1,9 +1,9 @@
-package com.Project.Url_Shortner_Project.domain.entities.services;
+package com.Project.Url_Shortner_Project.domain.services;
 
 import com.Project.Url_Shortner_Project.domain.entities.ShortUrl;
 import com.Project.Url_Shortner_Project.domain.entities.User;
-import com.Project.Url_Shortner_Project.domain.entities.models.ShortUrlDto;
-import com.Project.Url_Shortner_Project.domain.entities.models.UserDto;
+import com.Project.Url_Shortner_Project.domain.models.ShortUrlDto;
+import com.Project.Url_Shortner_Project.domain.models.UserDto;
 import org.springframework.stereotype.Component;
 
 @Component

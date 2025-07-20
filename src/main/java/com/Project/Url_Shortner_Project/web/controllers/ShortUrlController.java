@@ -1,12 +1,12 @@
 package com.Project.Url_Shortner_Project.web.controllers;
 
 import com.Project.Url_Shortner_Project.config.ApplicationProperties;
-import com.Project.Url_Shortner_Project.domain.entities.exceptions.ShortUrlNotFoundException;
-import com.Project.Url_Shortner_Project.domain.entities.models.CreateShortUrlCmd;
-import com.Project.Url_Shortner_Project.domain.entities.models.PagedResult;
-import com.Project.Url_Shortner_Project.domain.entities.models.ShortUrlDto;
-import com.Project.Url_Shortner_Project.domain.entities.services.ShortUrlService;
-import com.Project.Url_Shortner_Project.web.controllers.dtos.CreateShortUrlForm;
+import com.Project.Url_Shortner_Project.domain.exceptions.ShortUrlNotFoundException;
+import com.Project.Url_Shortner_Project.domain.models.CreateShortUrlCmd;
+import com.Project.Url_Shortner_Project.domain.models.PagedResult;
+import com.Project.Url_Shortner_Project.domain.models.ShortUrlDto;
+import com.Project.Url_Shortner_Project.domain.services.ShortUrlService;
+import com.Project.Url_Shortner_Project.web.dtos.CreateShortUrlForm;
 import jakarta.validation.Valid;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
