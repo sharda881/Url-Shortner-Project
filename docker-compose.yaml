@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  spring-boot-url-shortener:
+    image: sharda-project/spring-boot-url-shortener
+    container_name: spring-boot-url-shortener
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
